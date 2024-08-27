@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo-body: #FEF7EC;
+    --cor-texto-principal: #444444;
+    --branco: #FAFAFA;
+    --cinza: #EAEAEA;
+    --laranja: #FF734C;
+    --verde: #41A86A;
+    --preto: #000000;
+}
+
+body {
+    font-family: sans-serif;
+    color: var(--cor-texto-principal);
+    min-height: 100vh;
+    background-color: var(--cor-fundo-body);
+    background-size: 100%;
+}
+
+button, input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
